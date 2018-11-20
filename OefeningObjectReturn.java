@@ -10,7 +10,11 @@ public class OefeningObjectReturn {
 
 class ToegangsPoort {
     void toelaten() {
-        System.out.println("Je bent toegelaten");
+        if (true){
+            System.out.println("Je bent toegelaten");
+        }else {
+            System.out.println("Je bent niet toegelaten");
+        }
     }
 }
 
